@@ -8,6 +8,8 @@ or
     
     $ tomp3 <input-file> <bitrate>
 
+Important: Remove File extension
+
 ## requires
 * ffmpeg
 * bash
