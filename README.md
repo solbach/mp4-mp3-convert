@@ -20,7 +20,7 @@ or
 ## install ffmpeg on Ubuntu 14.04
 
 ``` 
-sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
-sudo apt-get update
-sudo apt-get install ffmpeg
+$ sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
+$ sudo apt-get update
+$ sudo apt-get install ffmpeg
 ```
