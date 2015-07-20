@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ $# -lt 1 ]; then
-  echo -e "$(tput bold) usage: tomp3 <input-file> <bitrate> $(tput sgr 0)"
-  echo -e "$(tput bold)or"
+  echo -e "$(tput bold) usage: tomp3 <input-file> $(tput sgr 0)"
+  echo -e "$(tput bold) or"
   echo -e "$(tput bold) usage: tomp3 <input-file> <bitrate> $(tput sgr 0)"
 	exit
 fi
@@ -10,6 +10,8 @@ fi
 if [ $# -lt 2 ]; then
   echo "[convert $1.mp4 to $1.mp3. Bitrate 320Kb...]"
   ffmpeg -i $1.mp4 -b:a 320K -vn $1.mp3
+  echo "[Done]"
+  exit
 fi
 
 echo "[convert $1.mp4 to $1.mp3. Bitrate $2Kb...]"
