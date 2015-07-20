@@ -1,9 +1,6 @@
-# mp4tomp3Convert
-Small script to convert a mp4 video to a mp3 audio file
-
 # mp4 to mp3 converter
 
-This little scripts converts .mp4 files to .mp3 audio files. 
+This little script converts .mp4 files to .mp3 audio files. 
 
 ## usage
     $ tomp3 <input-file>
